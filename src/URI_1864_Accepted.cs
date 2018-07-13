@@ -4,13 +4,11 @@ class URI {
 
     static void Main(string[] args) { 
 
-            int a, b, x;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
-
-            x = a + b;
-
-            Console.WriteLine("X = {0}", x);
+            string text = "LIFE IS NOT A PROBLEM TO BE SOLVED";
+            int n = int.Parse(Console.ReadLine());
+            string partOfText;
+            partOfText = text.Substring(0, n);
+            Console.WriteLine(partOfText);
 
     }
 
