@@ -14,7 +14,6 @@ class URI {
                 else
                     Console.WriteLine(1);
             }
-
     }
 
 }
